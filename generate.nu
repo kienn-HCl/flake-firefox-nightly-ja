@@ -30,13 +30,16 @@ def fetch_release (version: string, system: string, extension: string) {
 }
 
 def fetch_nightly (version: string, system: string) {
-  let product = $"firefox-($version).en-US.($system)";
-  let data = http get $"https://download.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/($product).buildhub.json";
+  let data = http get $"https://download.cdn.mozilla.net/pub/firefox/nightly/latest-mozilla-central/firefox-($version).en-US.($system).buildhub.json";
   
-  let url = $data.download.url
+  let url = (
+    $data.download.url
+    | str replace 'mozilla-central' 'mozilla-central-l10n'
+    | str replace 'en-US' 'ja'
+  )
 
   let hash = (
-    http get $"($url | path dirname)/($product).checksums"
+    http get $"($url | str replace -r '(.+).tar.xz' '$1.checksums')"
     | from ssv -m 1 --noheaders
     | where column1 == "sha512"
     | where column3 == ($url | path basename)
