@@ -1,6 +1,5 @@
 # flake-firefox-nightly
-
-[![Update](https://github.com/colemickens/flake-firefox-nightly/actions/workflows/update.yaml/badge.svg)](https://github.com/colemickens/flake-firefox-nightly/actions/workflows/update.yaml)
+[![Update](https://github.com/kienn-HCl/flake-firefox-nightly-ja/actions/workflows/update.yaml/badge.svg)](https://github.com/kienn-HCl/flake-firefox-nightly-ja/actions/workflows/update.yaml)
 
 ## overview
 
