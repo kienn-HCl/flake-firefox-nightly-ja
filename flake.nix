@@ -52,27 +52,27 @@
             });
         in
         {
-          firefox-bin = mkFirefox {
-            branch = "release";
-            name = "Firefox";
-          };
-
-          firefox-esr-bin = mkFirefox {
-            branch = "esr";
-            name = "Firefox ESR";
-          };
-
-          firefox-beta-bin = mkFirefox {
-            branch = "beta";
-            name = "Firefox Beta";
-            channel = "beta";
-          };
-
-          firefox-devedition-bin = mkFirefox {
-            branch = "devedition";
-            name = "Firefox Developer Edition";
-            channel = "developer-edition";
-          };
+          # firefox-bin = mkFirefox {
+          #   branch = "release";
+          #   name = "Firefox";
+          # };
+          #
+          # firefox-esr-bin = mkFirefox {
+          #   branch = "esr";
+          #   name = "Firefox ESR";
+          # };
+          #
+          # firefox-beta-bin = mkFirefox {
+          #   branch = "beta";
+          #   name = "Firefox Beta";
+          #   channel = "beta";
+          # };
+          #
+          # firefox-devedition-bin = mkFirefox {
+          #   branch = "devedition";
+          #   name = "Firefox Developer Edition";
+          #   channel = "developer-edition";
+          # };
 
           firefox-nightly-bin = mkFirefox {
             branch = "nightly";
