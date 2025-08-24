@@ -15,16 +15,15 @@ jobs:
       with:
         fetch-depth: 0 # flakes doesn't work on shallow clones
     - name: install-nix
-      uses: cachix/install-nix-action@v23
+      uses: cachix/install-nix-action@31
       with:
         github_access_token: ${{ secrets.GITHUB_TOKEN }}
         extra_nix_config: |
           system-features = kvm nixos-test
-          experimental-features = nix-command flakes
-    - uses: cachix/cachix-action@v12
-      with:
-        name: nixpkgs-wayland
-        signingKey: '${{ secrets.cachix_key_nixpkgs_wayland }}'
+    # - uses: cachix/cachix-action@v12
+    #   with:
+    #     name: nixpkgs-wayland
+    #     signingKey: '${{ secrets.cachix_key_nixpkgs_wayland }}'
     - name: git-setup
       run: |
         git config --global user.name 'Cole Botkens'
