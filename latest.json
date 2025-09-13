@@ -2,17 +2,17 @@
   "linux-x86_64": {
     "nightly": {
       "version": "144.0a1",
-      "url": "https://archive.mozilla.org/pub/firefox/nightly/2025/09/2025-09-11-16-21-14-mozilla-central-l10n/firefox-144.0a1.ja.linux-x86_64.tar.xz",
-      "hash": "sha512-SYGXUyA4i3xMRNgUB8yHLxgg3uNRZt0AfTtw5E6nBrfzEFThJjYYfckO2W1M4NnAtpprSR85xRcdOBK5AG/zVg==",
-      "date": "2025-09-11T16:21:14Z"
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/2025/09/2025-09-12-16-23-49-mozilla-central-l10n/firefox-144.0a1.ja.linux-x86_64.tar.xz",
+      "hash": "sha512-n43hD+miHQqwp11zw0noIgXILNoqPZ8+cUB9L22uVbTaT/uKFOWDSSvz+3ab19ZbZke6ES5bUj3PD+kizBgEqw==",
+      "date": "2025-09-12T16:23:49Z"
     }
   },
   "linux-aarch64": {
     "nightly": {
       "version": "144.0a1",
-      "url": "https://archive.mozilla.org/pub/firefox/nightly/2025/09/2025-09-11-16-21-14-mozilla-central-l10n/firefox-144.0a1.ja.linux-aarch64.tar.xz",
-      "hash": "sha512-Uz3J1XUGz4Ol1Rxmuk5mwcLFR3YI1y+TGbsplTxE4BkJZXrwZZxEaV+wRWz9Cky1q7hWcH2kDzOlm9YC7yFVlg==",
-      "date": "2025-09-11T16:21:14Z"
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/2025/09/2025-09-12-16-23-49-mozilla-central-l10n/firefox-144.0a1.ja.linux-aarch64.tar.xz",
+      "hash": "sha512-mpqrDq7ZF9EdqQnFlef7HEA57LLgJ+pbuxq/BUPKap3U0u6bdvn7UGr92FVJtCUisahD1XV63pLLqcJtHtZOvw==",
+      "date": "2025-09-12T16:23:49Z"
     }
   }
 }
