@@ -2,17 +2,17 @@
   "linux-x86_64": {
     "nightly": {
       "version": "157.0a1",
-      "url": "https://archive.mozilla.org/pub/firefox/nightly/2026/08/2026-08-28-21-21-13-mozilla-central-l10n/firefox-157.0a1.ja.linux-x86_64.tar.xz",
-      "hash": "sha512-nQ+khIJWqVXUqo5pf30lQ9qvdIjYo9ivzDMPIumlqd6YwqgZur43/yTKHe+IBJE0CXcFJINtfyy+e4+Qib1C5g==",
-      "date": "2026-08-28T21:21:13Z"
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/2026/08/2026-08-29-21-10-45-mozilla-central-l10n/firefox-157.0a1.ja.linux-x86_64.tar.xz",
+      "hash": "sha512-211bS697scx0372ok9+ov2MgUb+H0mAI5F/M3QhVf7jj8ctTzuEWGHugscO7RpnRAeUHOK1ZpoxqBkBP7lrUlA==",
+      "date": "2026-08-29T21:10:45Z"
     }
   },
   "linux-aarch64": {
     "nightly": {
       "version": "157.0a1",
-      "url": "https://archive.mozilla.org/pub/firefox/nightly/2026/08/2026-08-29-09-32-00-mozilla-central-l10n/firefox-157.0a1.ja.linux-aarch64.tar.xz",
-      "hash": "sha512-lIneh6K50oGomX7+hV5IioKoC/zEQsjypBdiZxVbA3ehxvwZZFaWhc/dQ4lyUPgsSZF7wFLwqR+xFmeRNpFTlw==",
-      "date": "2026-08-29T09:32:00Z"
+      "url": "https://archive.mozilla.org/pub/firefox/nightly/2026/08/2026-08-29-21-10-45-mozilla-central-l10n/firefox-157.0a1.ja.linux-aarch64.tar.xz",
+      "hash": "sha512-bq2YUPp0ldx9jyojpSE2/t8E0AH76pTxAmKwhQOG0xJEo2jeagnWJtLl1AGz5aGC88ArI5RoKOlIisFQti+ZiA==",
+      "date": "2026-08-29T21:10:45Z"
     }
   }
 }
